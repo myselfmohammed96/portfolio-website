@@ -1,0 +1,154 @@
+* {
+        font-family: "Poppins", sans-serif;
+        color:white;
+}
+
+/* banner */
+
+.img-container{
+    background-size:cover;
+    height:100%;
+}
+
+.img-container img{
+    width:100%;
+    height:100%;
+}
+
+.banner{
+    width:100%;
+    height:53.15vw;
+}
+
+.banner-top{
+    background-image: linear-gradient( rgb(27, 25, 25) ,black);
+    opacity:0.75;
+    width:100%;
+    height:54.5vw;
+    background-size:cover;
+    position:relative;
+    /* top:95px; */
+    bottom:53.1vw;
+}
+
+/* Main content */
+
+.bg-gray{
+     background-color: black;
+}
+
+.text-container{
+    padding-top:15vw;
+}
+
+.sec-about-me{
+    padding-bottom:15vw;
+}
+
+/* section counts */
+
+.count-div{
+    width:100%;
+    padding-right:0px;
+}
+
+.count-container{
+    /* border:1px solid red; */
+    padding-left:10vw;
+    color:rgb(69, 69, 69);
+}
+
+.count-title{
+    position:relative;
+    left:12vw;
+    bottom:7vw;
+    width:fit-content;
+}
+
+.count-title{
+    font-size: 3vw;
+}
+
+.count{
+    font-size:10vw;
+}
+
+.about-text{
+    padding-top:13vw;
+}
+
+.about-text p{
+    background-color: none;
+}
+
+
+/* education and skills */
+
+.skill-section-ht{
+    /* height:471px; */
+    /* border:1px solid red; */
+    padding-bottom:3vw;
+}
+
+/* .skill-row-container{
+    border:1px solid green;
+}  */
+
+.skill-row{
+    width:100%;
+    /* height:200px; */
+    color:black;
+}
+
+.education-container li{
+    list-style-type:none;
+}
+
+.skill-container li{
+    list-style-type:none;
+}
+
+.skill-container{
+    padding-left:5vw;
+}
+
+/* .sample{
+    width:100px;
+    height:100px;
+    background-color:red;
+} */
+
+/* #kfc-pic{
+    border:1px solid black;
+    margin:auto auto 5vw auto;
+    padding:0px;
+    border-radius:10px;
+    box-shadow: 10px 10px 10px 10px;
+
+} */
+
+#kfc-card{
+    margin-bottom:6vw;
+    /* border:1px solid green; */
+}
+
+#geek4geek-card{
+    margin-bottom:6vw;
+}
+
+.form-margin{
+    margin-bottom:5vw;
+}
+
+.icon-container{
+    padding-left:17vw;
+}
+#fb-icon{
+    width:2vw
+
+}
+#insta-icon{
+    opacity: .5;
+    width:2vw;
+    margin-left:3vw;
+}
